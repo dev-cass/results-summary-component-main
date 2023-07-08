@@ -96,7 +96,7 @@ main {
     var(--Light-slate-blue-background),
     var(--Light-royal-blue-background)
   );
-  border-radius: 0 0 25px 25px;
+  border-radius: 0 0 30px 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -237,9 +237,9 @@ main {
 }
 
 .attribution {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   text-align: center;
-  padding: 1.5rem;
+  padding: 2rem;
 }
 
 @media (min-width: 600px) {
