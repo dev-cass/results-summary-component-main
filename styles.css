@@ -14,7 +14,8 @@
   --text-cobalt-blue: hsl(234, 85%, 45%);
   --dim-light-100: hsla(241, 100%, 89%);
   --dim-light-200: hsla(241, 100%, 80%);
-  --grayish-color: hsla(224, 30%, 27%, 0.4);
+  --dim-light-300: rgb(198, 207, 231);
+  --grayish-color: hsla(224, 30%, 27%, 0.856);
   --darker-blue: hsl(224, 30%, 27%);
 
   /* GRADIENTS */
@@ -108,6 +109,7 @@ main {
 
 .result-heading {
   color: var(--dim-light-100);
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
@@ -158,7 +160,8 @@ main {
 
 .summary-heading {
   color: var(--darker-blue);
-  font-weight: 700;
+  font-size: 1.5rem;
+  font-weight: 800;
 }
 
 .reaction-content,
@@ -245,6 +248,7 @@ main {
     border-radius: 25px;
     grid-template-columns: 1fr 1fr;
     overflow: hidden;
+    box-shadow: 0.75rem 0.75rem 1rem var(--dim-light-300);
   }
 
   .result-content {
